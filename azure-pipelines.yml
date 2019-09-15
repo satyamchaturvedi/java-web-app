@@ -6,6 +6,9 @@
 trigger:
 - master
 
+variables:
+  azureSubscription: connect-maven-app
+
 pool:
   vmImage: 'ubuntu-latest'
 
@@ -38,3 +41,10 @@ steps:
   inputs:
     artifactName: 'war'
     pathToPublish: '$(build.artifactStagingDirectory)'
+
+- task: AzureWebApp@1
+  displayName: Azure Web App Deploy
+  inputs:
+    azureSubscription: $(azureSubscription)
+    appName: maven-app
+    package: $(System.DefaultWorkingDirectory)/**/*.war

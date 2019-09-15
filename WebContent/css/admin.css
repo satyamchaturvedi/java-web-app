@@ -1,0 +1,45 @@
+
+input[type="submit"]{
+	width:240px;
+  height:35px;
+  display:block;
+  font-family:Arial, "Helvetica", sans-serif;
+  font-size:16px;
+  font-weight:bold;
+  color:#000000;
+  text-transform:uppercase;
+  text-align:center;
+  text-shadow:1px 1px 0px #37a69b;
+  /* padding-top:6px; */
+  /* margin: 29px auto auto 80px; */
+  position:relative;
+  cursor:pointer;
+  border: none;  
+  background-color: #37a69b;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius:5px;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #497a78, 0px 10px 5px #999;
+}
+body {
+	margin: 0;
+	/* background: linear-gradient(45deg, #49a09d, #5f2c82); */
+/* 	linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), */
+	background-image:url("../images/shop4.jpg"); 
+	font-family: sans-serif;
+	font-weight: 100;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center;
+}
+.logout{
+	color: #000000;
+	text-align: center;
+	position: relative;
+	top: -10%;
+	left: 40%;
+}
+
+  

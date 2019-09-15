@@ -1,0 +1,23 @@
+html {
+}
+h1,h2 {
+    margin: 10px;
+    padding: 0px;
+    color:#000000;
+    font-family: Serif;
+    font-size: 50px;
+}
+body {
+
+    min-width:768px;
+    margin: 0px auto;
+    background: menu;
+    padding:5px 5px 5px 5px;
+    text-align:center;
+    background-image:url("../images/shop4.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center;
+ 	
+}

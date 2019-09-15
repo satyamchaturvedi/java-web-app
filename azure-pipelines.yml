@@ -38,4 +38,3 @@ steps:
   inputs:
     artifactName: 'war'
     pathToPublish: '$(build.artifactStagingDirectory)'
-© 2019 GitHub, Inc.
